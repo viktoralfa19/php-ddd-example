@@ -1,4 +1,4 @@
-FROM php:8.3-fpm-alpine
+FROM php:8.4.0RC4-fpm-alpine
 WORKDIR /app
 
 RUN apk --update upgrade \
